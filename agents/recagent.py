@@ -18,10 +18,10 @@ class Agent(object):
         if model.startswith("gpt"):
             api_key = api_keys[id]
             client = OpenAI(
-                base_url="https://api.xty.app/v1",
+                base_url="",
                 api_key=api_key,
                 http_client=httpx.Client(
-                    base_url="https://api.xty.app/v1",
+                    base_url="",
                     follow_redirects=True,
                 ),
             )
