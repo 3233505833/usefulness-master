@@ -1,0 +1,26 @@
+# path for item data:data_full_withSERPid.json or data/KDD19_with_url.json
+data_path: data/data_full_withSERPid.json
+# name for item data KDD#new
+data_name: new
+# name for model #gpt-4o-2024-11-20 "gpt-3.5-turbo-16k"
+model_name: "gpt-3.5-turbo-16k"
+# generation strategy: reasoning-example
+strategy: listwise-example
+# temperature for LLM
+temperature: 0
+# number of agents
+num_agents: 6
+# maximum number of tokens for search result `
+max_result_token: 10000
+# maximum number of tokens for webpage text content
+max_content_token: 10000
+# list of api keys for LLM API
+api_keys:
+ - sk-Mtc87P3lFmAlhbjHD2789406Ec124413A0Bc94990e319cB1
+ - sk-Kj9YRV4OAeVa08vfAf81FaA7B04a409289318eCb1d877b9e
+ - sk-UprrQpIfm2hx12D490B8E2A5E91745B6B0C60764C5AeD3Bb
+ - sk-aYwl7arXi83QtEyd6bF0E5B6EfF34415A72305Ea9e1d7a4c
+ - sk-zMl7WpRp8iSwKQvO6e58E62bBd0146E2Ae17Ff0153C76516
+ - sk-eKRqOSzQi0Xl4HhTC574Fb6423E349C989095eC13c82Aa41
+#save_log_dir: ../../../usefulness_pointwise_newdata1_4o_list_rele_12457/
+save_log_dir: ../../../usefulness_newdata_0.7list_3.5_thought_define
